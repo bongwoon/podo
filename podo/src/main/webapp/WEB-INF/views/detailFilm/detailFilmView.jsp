@@ -306,7 +306,7 @@
 			   			</div>
 			   			
 			   			<p id="reviewContentFont" class="title">
-								<c:if test="${ r.spoilerCheck eq 'Y' }">
+								<c:if test="${ r.spoilerCheck eq 'Y' }">    
 									<div class="contentKorea df_r_spoContent">
 										<div class="df_r_spoilerCheck">해당 내용은 스포일러를 포함하고 있습니다.</div>
 										<div class="df_r_content">${ r.content }</div>
